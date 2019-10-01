@@ -1,0 +1,330 @@
+299c9ba655e86bbc38fa9ea8b6484550|file:///home/fan/.config/i3/config|1|1|V|conf
+	# i3 config file (v4)
+5d610dbf145169312d7cbe6f6e31c74a|file:///home/fan/.config/i3/config|1|1|V|conf
+	# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+399a6447c636cd3cbf1e4cfbce2d6dcc|file:///home/fan/.config/i3/config|1|1|V|conf
+	# Set mod key (Mod1=<Alt>, Mod4=<Super>)
+b2642a3fd00550edb22417a1f3c39fb9|file:///home/fan/.config/i3/config|1|1|V|conf
+	set $mod Mod4
+ad6e85c2cffbbc907e13ecee6b2b083b|file:///home/fan/.config/i3/config|1|1|V|conf
+	# set default desktop layout (default is tiling)
+4be465c634cf2d1ab158c2bd2afd020f|file:///home/fan/.config/i3/config|1|1|V|conf
+	# workspace_layout tabbed <stacking|tabbed>
+535963046e59eca45aca31ba4f87e308|file:///home/fan/.config/i3/config|1|1|V|conf
+	# Configure border style <normal|1pixel|pixel xx|none|pixel>
+96569ff1f4aa54ad64fa5c9432968042|file:///home/fan/.config/i3/config|1|1|V|conf
+	new_window pixel 1
+a8510bd03fb117f5d097b0f0c55349f5|file:///home/fan/.config/i3/config|1|1|V|conf
+	new_float normal
+dad7f921c40dd6cbe1072acb1f979e1e|file:///home/fan/.config/i3/config|1|1|V|conf
+	# Hide borders
+9049ec9c96cc23a7352e9cd25d87d803|file:///home/fan/.config/i3/config|1|1|V|conf
+	hide_edge_borders none
+44700be636a9388a63cd52cdc9a3c3f8|file:///home/fan/.config/i3/config|1|1|V|conf
+	# change borders
+dba2276cb33a4ccded2b6f203ed6e4ea|file:///home/fan/.config/i3/config|1|1|V|conf
+	#bindsym $mod+u border none
+68d219797cc0e475cec656d23c5ae66a|file:///home/fan/.config/i3/config|1|1|V|conf
+	#bindsym $mod+y border pixel 1
+e3e8378614e52262041887e736cef905|file:///home/fan/.config/i3/config|1|1|V|conf
+	#bindsym $mod+n border normal
+1f87933f133aec38dbdd3c9ed5509733|file:///home/fan/.config/i3/config|1|1|V|conf
+	# Font for window titles. Will also be used by the bar unless a different font
+a843d964c5977bc2eb10f1f46ae10ed1|file:///home/fan/.config/i3/config|1|1|V|conf
+	# is used in the bar {} block below.
+ec8a9a1b2c6d1ce5cba86574bde474f5|file:///home/fan/.config/i3/config|1|1|V|conf
+	# font xft:URWGothic-Book 11
+0543c2d0541d1c522712da06a3d3a784|file:///home/fan/.config/i3/config|1|1|V|conf
+	# Use Mouse+$mod to drag floating windows
+552881029da42935753a926a773f3b14|file:///home/fan/.config/i3/config|1|1|V|conf
+	floating_modifier $mod
+852df8acfa8de1da91fbec902761742f|file:///home/fan/.config/i3/config|1|1|V|conf
+	# start a terminal
+c966d32abce7702953a654559ef9b6d2|file:///home/fan/.config/i3/config|1|1|V|conf
+	bindsym $mod+Return exec alacritty
+44896fc22585df2ccce00a4c86d8e50a|file:///home/fan/.config/i3/config|1|1|V|conf
+	# kill focused window
+1cc64b6a27e59e718234e63bad6b1673|file:///home/fan/.config/i3/config|1|1|V|conf
+	bindsym $mod+Shift+q kill
+02f644168bcc902615e64dd8618197e6|file:///home/fan/.config/i3/config|15|1|V|conf
+	exec --no-startup-id volumeicon
+ae31094f992931a3018717c993ce9a10|file:///home/fan/.config/i3/config|15|1|V|conf
+	bindsym $mod+Ctrl+m exec alacritty -e 'alsamixer'
+2b3113370a37fc89477f3e301cbaac47|file:///home/fan/.config/i3/config|15|1|V|conf
+	#exec --no-startup-id pulseaudio
+c0e1a8d6948704288742c840fb6a93dc|file:///home/fan/.config/i3/config|15|1|V|conf
+	#exec --no-startup-id pa-applet
+98361814b3fdc81be2f2b0e90e0c5ba9|file:///home/fan/.config/i3/config|15|1|V|conf
+	#bindsym $mod+Ctrl+m exec pavucontrol
+6ebfd0e5399d1c4d64413e0ebc574a2e|file:///home/fan/.config/i3/config|15|1|V|conf
+	################################################################################################
+a3ce2b4955ff5f315eeac54a936acaac|file:///home/fan/.config/i3/config|15|1|V|conf
+	# Screen brightness controls
+b9b92f343c4127264d0f0bfd8e161e5b|file:///home/fan/.config/i3/config|15|1|V|conf
+	# bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
+60a49bd697877c55f3c80f237c8074a7|file:///home/fan/Templates/config/i3/config|11|1|V|conf
+	# oo
+59ec1d0297b7083ab7bbc4cda5113217|file:///home/fan/Templates/config/i3/config|85|1|V|conf
+	bindsym $mod+h split h
+4e5fa453b1411d244665bead5d76cbe3|file:///home/fan/Templates/config/i3/config|85|1|V|conf
+	# split in vertical orientation
+ce7ce9108ae218e4ee612b0b36e3ed1d|file:///home/fan/Templates/config/i3/config|86|1|V|conf
+	oooo
+14bf2b837b9361b77324232ef3c4119a|file:///home/fan/Templates/config/i3/config|84|1|V|conf
+	# split in horizontal orientation
+72e0ab35fbd28c38fb320c7db33464f5|file:///home/fan/Videos/manjaro/config/i3/config|79|1|V|conf
+	bindsym $mod+shift+b exec variety -p
+b4669e1d79c3668be3a1ac491ba4b057|file:///home/fan/Videos/manjaro/config/i3/config|79|1|V|conf
+	# Switching keyboard layouts
+0789120de81cddad68442c45c3a5cace|file:///home/fan/Work/skynet/platform.mk|19|8|v|make
+	Please do 'make PLATFORM' where PLATFORM is one of these:
+c5a01055c8bc9f27bfc37267a05c314a|file:///home/fan/Work/skynet/platform.mk|19|8|v|make
+	   $(PLATS)
+e6adf646f4a4307fd631da98187a7d23|file:///home/fan/Work/skynet/platform.mk|12|1|V|make
+	default :
+3b8347a84bc93919d2af440b0f6343dc|file:///home/fan/Work/skynet/platform.mk|12|2|V|make
+		$(MAKE) $(PLATkk)
+0ca79636599c23487f8373e651de1662|file:///home/fan/Work/skynet/platform.mk|26|1|V|make
+		"''"
+64a831d7666033c1c3b49af5d8953f4e|file:///home/fan/mytet/my.lua|1|1|V|lua
+	function a()
+	
+	jjend
+d1bf8176f76a9f966935c6e4dc17bc30|file:///home/fan/Videos/manjaro/nvim/init.vim|527|1|V|vim
+	let g:NERDTreeIndicatorMapCustom = {
+36c1d597bf1c06ac5fd83172b3591207|file:///home/fan/Videos/manjaro/nvim/init.vim|139|1|V|vim
+	" Adjacent duplicate words
+0c55393fca4d97903f025def17d6c3db|file:///home/fan/Videos/manjaro/nvim/init.vim|139|12|v|vim
+	duplicate 
+89759e1284e2479b991d2669de104942|file:///home/fan/Videos/manjaro/nvim/init.vim|139|12|v|vim
+	words
+ce3f372a94d179db0a781f6d6df6f98c|file:///home/fan/Videos/manjaro/nvim/init.vim|245|42|v|vim
+	<++>
+988fb7f2c1a23458db281729d2256794|file:///home/fan/Work/skynet/skynet-src/skynet_daemon.c|11|1|^v|c
+	
+	sta
+	che
+		i
+		F
+		i
+		 
+		i
+		f
+	
+		i
+		 
+		}
+	
+		i
+		 
+	
+		r
+	}
+	
+	sta
+	wri
+		F
+		i
+		i
+		i
+		 
+		 
+		}
+		f
+		i
+		 
+		 
+		}
+fe6910823c8ad87bdf0446f94b727cd7|file:///home/fan/Work/skynet/skynet-src/skynet_daemon.c|1|1|^v|c
+	#i
+	#i
+	#i
+	#i
+	#i
+	#i
+	#i
+	#i
+3d41a97d521086d24ca4cbeaee20e9d0|file:///home/fan/Work/skynet/skynet-src/skynet_daemon.c|12|1|v|c
+	static int
+	check_pid(const char *pidfile) {
+		int pid = 0;
+		FILE *f = fopen(pidfile,"r");
+		if (f == NULL)
+			return 0;
+		int n = fscanf(f,"%d", &pid);
+		fclose(f);
+	
+		if (n !=1 || pid == 0 || pid == getpid()) {
+			return 0;
+		}
+	
+	
+5a9d089f5bbb95901efb3700c3541ec6|file:///home/fan/Work/skynet/skynet-src/skynet_daemon.c|15|1|V|c
+		FILE *f = fopen(pidfile,"r");
+7d986911288cc0c4c76bd7f25654e7ea|file:///home/fan/Work/skynet/skynet-src/skynet_daemon.c|112|1|v|c
+		if (pid == 0) {
+			return 1;
+		}
+	
+		if (redirect_fds()) {
+			return 1;
+		}
+	
+	
+5198965eee3b9cd457ed85908ba3cf82|file:///home/fan/Work/skynet/skynet-src/skynet_handle.c|245|9|v|c
+	fasdfal
+0a25d7f6133e298266fac0fd4a930ec6|file:///home/fan/.config/nvim/init.vim|48|1|V|vim
+	"set listchars=tab:▸\ ,trail:▫
+66958daee5cf06f9f5c231fcc7059204|file:///home/fan/Videos/manjaro/nvim/init.vim|315|1|V|vim
+	Plug 'wsdjeg/FlyGrep.vim' " Ctrl+f (normal) to find file content
+510c1ffae88d66a6f5fa3c3a62a63d79|file:///home/fan/mytet/linenoise/test.c|1|1|V|c
+	))))
+41e66bb20b9f3eff5b1df38e889a21be|file:///home/fan/mytet/linenoise/test.c|6|1|V|c
+	#include </workdir/kern/linux-2.6.20/include/linux/input.h>
+67b6709d1ed66faefb1f53601d87282b|file:///home/fan/mytet/a.html|1|13|V|html
+	lign:center} 
+	</STYLE> 
+	<SCRIPT LANGUAGE="JavaScript"> 
+	function init() { 
+	    document.onkeydown = showKeyDown 
+	    document.onkeyup = showKeyUp 
+	    document.onkeypress = showKeyPress 
+	} 
+	
+	function showKeyDown(evt) { 
+	    evt = (evt) ? evt : window.event 
+	    document.getElementById("pressKeyCode").innerHTML = 0 
+	    document.getElementById("upKeyCode").innerHTML = 0 
+	    document.getElementById("pressCharCode").innerHTML = 0 
+	    document.getElementById("upCharCode").innerHTML = 0 
+	    restoreModifiers("") 
+	    restoreModifiers("Down") 
+	    restoreModifiers("Up") 
+	    document.getElementById("downKeyCode").innerHTML = evt.keyCode 
+	    if (evt.charCode) { 
+	        document.getElementById("downCharCode").innerHTML = evt.charCode 
+	    } 
+	    showModifiers("Down", evt) 
+	} 
+	function showKeyUp(evt) { 
+	    evt = (evt) ? evt : window.event 
+	    document.getElementById("upKeyCode").innerHTML = evt.keyCode 
+	    if (evt.charCode) { 
+	        document.getElementById("upCharCode").innerHTML = evt.charCode 
+	    } 
+	    showModifiers("Up", evt) 
+	    return false 
+	} 
+	function showKeyPress(evt) { 
+	    evt = (evt) ? evt : window.event 
+	    document.getElementById("pressKeyCode").innerHTML = evt.keyCode 
+	    if (evt.charCode) { 
+	        document.getElementById("pressCharCode").innerHTML = evt.charCode 
+	    } 
+	    showModifiers("", evt) 
+	    return false 
+	} 
+	function showModifiers(ext, evt) { 
+	    restoreModifiers(ext) 
+	    if (evt.shiftKey) { 
+	        document.getElementById("shift" + ext).style.backgroundColor = "#ff0000" 
+	    } 
+	    if (evt.ctrlKey) { 
+	        document.getElementById("ctrl" + ext).style.backgroundColor = "#00ff00" 
+	    } 
+	    if (evt.altKey) { 
+	        document.getElementById("alt" + ext).style.backgroundColor = "#0000ff" 
+	    } 
+	} 
+	function restoreModifiers(ext) { 
+	    document.getElementById("shift" + ext).style.backgroundColor = "#ffffff" 
+	    document.getElementById("ctrl" + ext).style.backgroundColor = "#ffffff" 
+	    document.getElementById("alt" + ext).style.backgroundColor = "#ffffff" 
+	} 
+	</SCRIPT> 
+	</HEAD> 
+	
+	<BODY onLoad="init()"> 
+	<H1>Keyboard Event Handler Lab</H1> 
+	<HR> 
+	<FORM> 
+	<TABLE BORDER=2 CELLPADDING=2> 
+	<TR><TH></TH><TH>onKeyDown</TH><TH>onKeyPress</TH><TH>onKeyUp</TH></TR> 
+	<TR><TH>Key Codes</TH> 
+	    <TD ID="downKeyCode">0</TD> 
+	    <TD ID="pressKeyCode">0</TD> 
+	    <TD ID="upKeyCode">0</TD> 
+	</TR> 
+	<TR><TH>Char Codes (IE5/Mac; NN6)</TH> 
+	    <TD ID="downCharCode">0</TD> 
+	    <TD ID="pressCharCode">0</TD> 
+	    <TD ID="upCharCode">0</TD> 
+	</TR> 
+	<TR><TH ROWSPAN=3>Modifier Keys</TH> 
+	    <TD><SPAN ID="shiftDown">Shift</SPAN></TD> 
+	    <TD><SPAN ID="shift">Shift</SPAN></TD> 
+	    <TD><SPAN ID="shiftUp">Shift</SPAN></TD> 
+	</TR> 
+	<TR> 
+	    <TD><SPAN ID="ctrlDown">Ctrl</SPAN></TD> 
+	    <TD><SPAN ID="ctrl">Ctrl</SPAN></TD> 
+	    <TD><SPAN ID="ctrlUp">Ctrl</SPAN></TD> 
+	</TR> 
+	<TR> 
+	    <TD><SPAN ID="altDown">Alt</SPAN></TD> 
+	    <TD><SPAN ID="alt">Alt</SPAN></TD> 
+	    <TD><SPAN ID="altUp">Alt</SPAN></TD> 
+	</TR> 
+	</TABLE> 
+	</FORM> 
+	
+f05093f9fb8e24796f92d70751136bf7|file:///home/fan/.xmodmap|13|1|V|xmodmap
+	keycode  20 = minus underscore minus underscore
+b4a0611ff06cf3ee82f973f5edbdf2c3|file:///home/fan/.xmodmap|2|1|V|xmodmap
+	keycode   9 = Escape NoSymbol Escape
+204887a61cb5a9b9b58cff10a5cfa6cc|file:///home/fan/.xmodmap|57|1|V|xmodmap
+	keycode  64 = Alt_L Meta_L Alt_L Meta_L
+089787e389c25185f0e435f450307f69|file:///home/fan/.xmodmap|58|9|v|xmodmap
+	 64 = Alt_L Meta_L Alt_L Meta_L
+1ba58c41b9900306271727dde0d7e405|file:///home/fan/.xmodmap|2|10|v|xmodmap
+	 9 = Escape NoSymbol Escape
+4a605a5e5ad681c6a0eac33c82926431|file:///home/fan/.xmodmap|59|1|V|xmodmap
+	keycode  66 = Caps_Lock NoSymbol Caps_Lock
+d65c7f9f571d00117e8a926a87fb2c19|file:///home/fan/.xmodmap|30|1|V|xmodmap
+	keycode  37 = Control_L NoSymbol Control_L
+5c05d6c93a64eab67ebc3ef7989a7c36|file:///home/fan/.xmodmap|101|1|V|xmodmap
+	keycode 108 = Alt_R Meta_R Alt_R Meta_R
+7d7ade2530a3f814b841f2ed0dcfab30|file:///home/fan/.xmodmap|128|1|V|xmodmap
+	keycode 135 = Menu NoSymbol Menu
+b26c3ca6e9ad3e213a2fcf9ae2e0211b|file:///home/fan/.xmodmap|249|1|V|xmodmap
+	keycode 253 =
+baaed39b8bc52d6e11497aa93d409e2d|file:///home/fan/Work/skynet/3rd/|8|1|^v|netrw
+	lpeg/       
+2423709df9d745a20fdcdf29cf1ea7d9|file:///home/fan/Work/skynet/3rd/|8|1|^v|netrw
+	lua/        
+c40f1c7325a8519d5e533a8b46d7f453|file:///home/fan/Work/skynet/3rd/|8|1|^v|netrw
+	./          
+865de2f3f6df430a833d1057c0b32feb|file:///home/fan/Work/skynet/3rd/|8|1|^v|netrw
+	jemalloc/   
+eb6588f7a85ad2ebcfdb75b92c7b826e|file:///home/fan/Work/skynet/3rd/|8|1|^v|netrw
+	lua-md5/    
+c42c4f8c8eea1d25b95e0a03cff28d3c|file:///home/fan/Work/skynet/3rd/|8|1|v|netrw
+	../         
+1f49cc019b9dd16d6798fcbbc5c2fe58|file:///home/fan/.xmodmap|2|11|v|xmodmap
+	9 = Escape NoSymbol Escape
+2f896335e2bf33821ff671b296296ce8|file:///home/fan/.xmodmap|59|10|v|xmodmap
+	66 = Caps_Lock NoSymbol Caps_Lock
+288774357409672bd6e2e639c8aa0d30|file:///home/fan/.xmodmap|98|1|V|xmodmap
+	keycode 105 = Control_R NoSymbol Control_R
+753d2203370594ce5235a4c214cf675c|file:///home/fan/.xmodmap|98|1|V|xmodmap
+	keycode 105 = Control_R NoSymbol Control_R
+	keycode 106 = KP_Divide KP_Divide KP_Divide KP_Divide KP_Divide KP_Divide XF86Ungrab
+d37c2d8290c85b2539af8b21da688e9e|file:///home/fan/.xmodmap|18|1|v|xmodmap
+	keycode  25 = w W w W
+283c280fb89e8dfb7715e1a3f377ccf5|file:///home/fan/.xmodmap|127|15|v|xmodmap
+	Super_R NoSymbol Super_R
+b987efe9bd53e91b499fc310be24c601|file:///home/fan/.xmodmap|126|1|V|xmodmap
+	keycode 133 = Super_L NoSymbol Super_L
+	keycode 134 = Super_R NoSymbol Super_R
+063e5bd229c9c354cd42da3cc9ee2276|file:///home/fan/.xmodmap|101|15|v|xmodmap
+	Alt_R Meta_R Alt_R Meta_R

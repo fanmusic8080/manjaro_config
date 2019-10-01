@@ -1,0 +1,1611 @@
+INFO: 2019-10-01 11:42:39,373: perform_upgrade() 'Last run version was 0.7.2 or earlier, current version is 0.7.2'
+INFO: 2019-10-01 11:42:40,306: process_command() 'Received command: []'
+INFO: 2019-10-01 11:42:40,308: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
+INFO: 2019-10-01 11:42:40,441: load() 'Jumble loading'
+INFO: 2019-10-01 11:42:40,455: _walk_modules() 'Jumble loading module in __init__ from /usr/share/variety/plugins/__init__.py'
+INFO: 2019-10-01 11:42:40,479: _walk_modules() 'Jumble loading module in LocalFilesSource from /usr/share/variety/plugins/quotes/LocalFilesSource.py'
+INFO: 2019-10-01 11:42:40,481: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: ~/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2019-10-01 11:42:40,482: _walk_modules() 'Jumble loading module in QuotesDaddySource from /usr/share/variety/plugins/quotes/QuotesDaddySource.py'
+INFO: 2019-10-01 11:42:40,483: load() 'Jumble found plugin class: <class 'QuotesDaddySource.QuotesDaddySource'>: {'name': 'QuotesDaddy', 'description': "Fetches quotes from QuotesDaddy's daily quotes RSS feed.\nDoes not support searching by tags or authors.", 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2019-10-01 11:42:40,484: _walk_modules() 'Jumble loading module in GoodreadsSource from /usr/share/variety/plugins/quotes/GoodreadsSource.py'
+INFO: 2019-10-01 11:42:40,543: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2019-10-01 11:42:40,544: _walk_modules() 'Jumble loading module in __init__ from /usr/share/variety/plugins/quotes/__init__.py'
+INFO: 2019-10-01 11:42:40,544: _walk_modules() 'Jumble loading module in QuotationsPageSource from /usr/share/variety/plugins/quotes/QuotationsPageSource.py'
+INFO: 2019-10-01 11:42:40,546: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2019-10-01 11:42:40,596: reload_config() 'Creating new downloader for type 6, location Random wallpapers from Desktoppr.co'
+INFO: 2019-10-01 11:42:40,597: reload_config() 'Creating new downloader for type 15, location Bing Photo of the Day'
+INFO: 2019-10-01 11:42:40,597: reload_config() 'Creating new downloader for type 16, location High-resolution photos from Unsplash.com'
+INFO: 2019-10-01 11:42:40,597: reload_config() 'Creating new downloader for type 8, location NASA's Astronomy Picture of the Day'
+INFO: 2019-10-01 11:42:40,597: reload_config() 'Creating new downloader for type 7, location user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2019-10-01 11:42:40,598: log_options() 'Loaded options:'
+INFO: 2019-10-01 11:42:40,599: log_options() 'change_enabled = True'
+INFO: 2019-10-01 11:42:40,599: log_options() 'change_interval = 300'
+INFO: 2019-10-01 11:42:40,599: log_options() 'change_on_start = False'
+INFO: 2019-10-01 11:42:40,599: log_options() 'clipboard_enabled = False'
+INFO: 2019-10-01 11:42:40,599: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2019-10-01 11:42:40,600: log_options() 'clipboard_use_whitelist = True'
+INFO: 2019-10-01 11:42:40,600: log_options() 'clock_date_font = Ubuntu Condensed, 30'
+INFO: 2019-10-01 11:42:40,600: log_options() 'clock_enabled = False'
+INFO: 2019-10-01 11:42:40,600: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2019-10-01 11:42:40,600: log_options() 'clock_font = Ubuntu Condensed, 70'
+INFO: 2019-10-01 11:42:40,600: log_options() 'configfile = /home/fan/.config/variety/variety.conf'
+INFO: 2019-10-01 11:42:40,601: log_options() 'copyto_enabled = False'
+INFO: 2019-10-01 11:42:40,601: log_options() 'copyto_folder = Default'
+INFO: 2019-10-01 11:42:40,601: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2019-10-01 11:42:40,601: log_options() 'desired_color_enabled = False'
+INFO: 2019-10-01 11:42:40,601: log_options() 'download_enabled = True'
+INFO: 2019-10-01 11:42:40,601: log_options() 'download_folder = /home/fan/.config/variety/Downloaded'
+INFO: 2019-10-01 11:42:40,602: log_options() 'download_interval = 600'
+INFO: 2019-10-01 11:42:40,602: log_options() 'favorites_folder = /home/fan/.config/variety/Favorites'
+INFO: 2019-10-01 11:42:40,602: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2019-10-01 11:42:40,602: log_options() 'fetched_folder = /home/fan/.config/variety/Fetched'
+INFO: 2019-10-01 11:42:40,602: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-blur 120x40'], [False, 'Soft blur', '-blur 20x7'], [False, 'Oil painting', '-paint 8'], [False, 'Pencil sketch', '-colorspace gray \\( +clone -tile ~/.config/variety/pencil_tile.png -draw "color 0,0 reset" +clone +swap -compose color_dodge -composite \\) -fx \'u*.2+v*.8\''], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2019-10-01 11:42:40,602: log_options() 'icon = Light'
+INFO: 2019-10-01 11:42:40,602: log_options() 'lightness_enabled = False'
+INFO: 2019-10-01 11:42:40,603: log_options() 'lightness_mode = 0'
+INFO: 2019-10-01 11:42:40,603: log_options() 'min_rating = 4'
+INFO: 2019-10-01 11:42:40,603: log_options() 'min_rating_enabled = False'
+INFO: 2019-10-01 11:42:40,603: log_options() 'min_size = 80'
+INFO: 2019-10-01 11:42:40,603: log_options() 'min_size_enabled = False'
+INFO: 2019-10-01 11:42:40,603: log_options() 'quota_enabled = True'
+INFO: 2019-10-01 11:42:40,603: log_options() 'quota_size = 500'
+INFO: 2019-10-01 11:42:40,603: log_options() 'quotes_authors = '
+INFO: 2019-10-01 11:42:40,603: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2019-10-01 11:42:40,603: log_options() 'quotes_bg_opacity = 55'
+INFO: 2019-10-01 11:42:40,603: log_options() 'quotes_change_enabled = False'
+INFO: 2019-10-01 11:42:40,604: log_options() 'quotes_change_interval = 300'
+INFO: 2019-10-01 11:42:40,604: log_options() 'quotes_disabled_sources = ['QuotesDaddy']'
+INFO: 2019-10-01 11:42:40,604: log_options() 'quotes_enabled = False'
+INFO: 2019-10-01 11:42:40,604: log_options() 'quotes_favorites_file = /home/fan/.config/variety/favorite_quotes.txt'
+INFO: 2019-10-01 11:42:40,604: log_options() 'quotes_font = Bitstream Charter 30'
+INFO: 2019-10-01 11:42:40,604: log_options() 'quotes_hpos = 100'
+INFO: 2019-10-01 11:42:40,604: log_options() 'quotes_tags = '
+INFO: 2019-10-01 11:42:40,604: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2019-10-01 11:42:40,604: log_options() 'quotes_text_shadow = False'
+INFO: 2019-10-01 11:42:40,604: log_options() 'quotes_vpos = 40'
+INFO: 2019-10-01 11:42:40,604: log_options() 'quotes_width = 70'
+INFO: 2019-10-01 11:42:40,605: log_options() 'safe_mode = False'
+INFO: 2019-10-01 11:42:40,605: log_options() 'slideshow_custom_enabled = False'
+INFO: 2019-10-01 11:42:40,605: log_options() 'slideshow_custom_folder = /home/fan/Pictures'
+INFO: 2019-10-01 11:42:40,605: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2019-10-01 11:42:40,605: log_options() 'slideshow_fade = 0.4'
+INFO: 2019-10-01 11:42:40,605: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2019-10-01 11:42:40,605: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2019-10-01 11:42:40,605: log_options() 'slideshow_monitor = All'
+INFO: 2019-10-01 11:42:40,605: log_options() 'slideshow_pan = 0.05'
+INFO: 2019-10-01 11:42:40,605: log_options() 'slideshow_seconds = 6.0'
+INFO: 2019-10-01 11:42:40,605: log_options() 'slideshow_sort_order = Random'
+INFO: 2019-10-01 11:42:40,605: log_options() 'slideshow_sources_enabled = True'
+INFO: 2019-10-01 11:42:40,606: log_options() 'slideshow_zoom = 0.2'
+INFO: 2019-10-01 11:42:40,606: log_options() 'smart_enabled = False'
+INFO: 2019-10-01 11:42:40,606: log_options() 'smart_notice_shown = False'
+INFO: 2019-10-01 11:42:40,606: log_options() 'smart_register_shown = False'
+INFO: 2019-10-01 11:42:40,606: log_options() 'sources = [[True, 3, 'The Favorites folder'], [True, 4, 'The Fetched folder'], [True, 2, '/usr/share/backgrounds'], [True, 6, 'Random wallpapers from Desktoppr.co'], [True, 15, 'Bing Photo of the Day'], [True, 16, 'High-resolution photos from Unsplash.com'], [True, 8, "NASA's Astronomy Picture of the Day"], [False, 11, 'World Sunlight Map - live wallpaper from Die.net'], [True, 7, 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;']]'
+INFO: 2019-10-01 11:42:40,606: log_options() 'stats_enabled = True'
+INFO: 2019-10-01 11:42:40,606: log_options() 'stats_notice_shown = False'
+INFO: 2019-10-01 11:42:40,606: log_options() 'sync_enabled = True'
+INFO: 2019-10-01 11:42:40,606: log_options() 'use_landscape_enabled = True'
+INFO: 2019-10-01 11:42:40,606: reload_config() 'No need to clear prepared queue'
+INFO: 2019-10-01 11:42:40,607: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 300'
+INFO: 2019-10-01 11:42:40,607: update_indicator() 'Setting file info to: /usr/share/backgrounds/xfce/Manjaro_Perspective_light.jpg'
+INFO: 2019-10-01 11:42:40,704: regular_change_thread() 'regular_change thread running'
+INFO: 2019-10-01 11:42:40,705: prepare_thread() 'Prepare thread running'
+INFO: 2019-10-01 11:42:40,705: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2019-10-01 11:42:40,706: prepare_thread() 'Preparing some images'
+INFO: 2019-10-01 11:42:40,709: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/xfce/Manjaro_Perspective_light.jpg, time: 1569901360.709147'
+INFO: 2019-10-01 11:42:40,760: update_indicator_icon() 'Creating indicator'
+WARNING: 2019-10-01 11:42:40,781: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+INFO: 2019-10-01 11:42:40,783: create_indicator() 'indicator backend: fallback tray'
+INFO: 2019-10-01 11:42:40,786: update_indicator() 'Setting file info to: /usr/share/backgrounds/xfce/Manjaro_Perspective_light.jpg'
+INFO: 2019-10-01 11:42:40,960: set_from_theme_icon() 'Showing status icon variety-indicator from GTK theme'
+INFO: 2019-10-01 11:42:41,055: update_indicator() 'Setting file info to: /usr/share/backgrounds/xfce/Manjaro_Perspective_light.jpg'
+INFO: 2019-10-01 11:42:43,178: prepare_thread() 'After search prepared buffer contains 100 images'
+INFO: 2019-10-01 11:42:45,965: reload() 'Reloading preferences dialog'
+INFO: 2019-10-01 11:43:00,726: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2019-10-01 11:43:05,897: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 80, in create_connection
+    raise err
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 355, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 183, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 165, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f3a8973a850>, 'Connection to tiny.cc timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3a8973a850>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 939, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3a8973a850>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+INFO: 2019-10-01 11:43:35,933: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2019-10-01 11:43:40,949: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 80, in create_connection
+    raise err
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 355, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 183, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 165, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f3a89770650>, 'Connection to tiny.cc timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3a89770650>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 939, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3a89770650>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+INFO: 2019-10-01 11:44:10,979: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2019-10-01 11:44:15,993: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 80, in create_connection
+    raise err
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 355, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 183, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 165, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f3a897202d0>, 'Connection to tiny.cc timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3a897202d0>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 939, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3a897202d0>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+INFO: 2019-10-01 11:44:46,024: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2019-10-01 11:44:51,040: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 80, in create_connection
+    raise err
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 355, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 183, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 165, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f3a8976c910>, 'Connection to tiny.cc timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3a8976c910>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 939, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3a8976c910>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+INFO: 2019-10-01 11:45:21,072: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2019-10-01 11:45:26,149: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 80, in create_connection
+    raise err
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 355, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 183, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 165, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f3a89768850>, 'Connection to tiny.cc timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3a89768850>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 939, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3a89768850>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+INFO: 2019-10-01 11:47:40,607: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 11:47:40,608: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/manjaro-gnome/illyria2.png'
+INFO: 2019-10-01 11:47:40,608: prepare_thread() 'Prepared buffer contains 99 images'
+INFO: 2019-10-01 11:47:40,609: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/manjaro-gnome/illyria2.png, time: 1569901660.6096685'
+INFO: 2019-10-01 11:47:40,640: update_indicator() 'Setting file info to: /usr/share/backgrounds/manjaro-gnome/illyria2.png'
+INFO: 2019-10-01 11:52:40,729: purge_downloaded() 'Refreshed download folder size: 37 mb'
+INFO: 2019-10-01 11:52:40,731: download_one() 'Downloading an image from NASA's Astro Pic of the Day, nasa_apod'
+INFO: 2019-10-01 11:52:40,731: download_one() 'Queue size: 0'
+INFO: 2019-10-01 11:52:40,731: fill_queue() 'Filling APOD queue from Archive'
+ERROR: 2019-10-01 11:52:40,742: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 355, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 183, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3a897646d0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='apod.nasa.gov', port=80): Max retries exceeded with url: /apod/archivepix.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a897646d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/APODDownloader.py", line 41, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/APODDownloader.py", line 68, in fill_queue
+    s = self.fetch("http://apod.nasa.gov/apod/archivepix.html")
+  File "/usr/lib/python3.7/site-packages/variety/APODDownloader.py", line 34, in fetch
+    return Util.xml_soup(url) if xml else Util.html_soup(url)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 597, in html_soup
+    return bs4.BeautifulSoup(Util.fetch(url, data), "lxml")
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 585, in fetch
+    return Util.request(url, data).text
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='apod.nasa.gov', port=80): Max retries exceeded with url: /apod/archivepix.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a897646d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 11:52:41,000: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 11:52:41,000: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/xfce/Manjaro_Perspective_light.jpg'
+INFO: 2019-10-01 11:52:41,000: prepare_thread() 'Prepared buffer contains 98 images'
+INFO: 2019-10-01 11:52:41,002: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/xfce/Manjaro_Perspective_light.jpg, time: 1569901961.0020027'
+INFO: 2019-10-01 11:52:41,029: update_indicator() 'Setting file info to: /usr/share/backgrounds/xfce/Manjaro_Perspective_light.jpg'
+INFO: 2019-10-01 11:57:41,293: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 11:57:41,294: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/manjaro-wallpapers-18.0/illyria-default2.jpg'
+INFO: 2019-10-01 11:57:41,294: prepare_thread() 'Prepared buffer contains 97 images'
+INFO: 2019-10-01 11:57:41,295: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/manjaro-wallpapers-18.0/illyria-default2.jpg, time: 1569902261.2956774'
+INFO: 2019-10-01 11:57:41,325: update_indicator() 'Setting file info to: /usr/share/backgrounds/manjaro-wallpapers-18.0/illyria-default2.jpg'
+INFO: 2019-10-01 12:02:40,708: parse_server_options() 'Unsplash.com: parsing serverside options'
+ERROR: 2019-10-01 12:02:40,708: parse_server_options() 'Could not parse Unsplash.com serverside options, using defaults 600, 1800'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/Downloader.py", line 143, in parse_server_options
+    options = self.parent.server_options[key]
+KeyError: 'unsplash_v2'
+INFO: 2019-10-01 12:02:40,710: download_one() 'Downloading an image from Unsplash'
+INFO: 2019-10-01 12:02:40,710: download_one() 'Queue size: 0'
+INFO: 2019-10-01 12:02:40,710: fill_queue() 'Filling Unsplash queue from https://api.unsplash.com/photos/?page=250&per_page=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a'
+ERROR: 2019-10-01 12:02:40,719: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 316, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764c90>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.unsplash.com', port=443): Max retries exceeded with url: /photos/?page=250&per_page=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764c90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/UnsplashDownloader.py", line 83, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/UnsplashDownloader.py", line 99, in fill_queue
+    r = Util.request(url)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.unsplash.com', port=443): Max retries exceeded with url: /photos/?page=250&per_page=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764c90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 12:02:41,586: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 12:02:41,586: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya (without blur) - Mr_Glitch(Projekt:Root).png'
+INFO: 2019-10-01 12:02:41,587: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya (without blur) - Mr_Glitch(Projekt:Root).png, time: 1569902561.5875275'
+INFO: 2019-10-01 12:02:41,588: prepare_thread() 'Prepared buffer contains 96 images'
+INFO: 2019-10-01 12:02:41,627: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya (without blur) - Mr_Glitch(Projekt:Root).png'
+INFO: 2019-10-01 12:07:41,858: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 12:07:41,858: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya - dark_2.png'
+INFO: 2019-10-01 12:07:41,859: prepare_thread() 'Prepared buffer contains 95 images'
+INFO: 2019-10-01 12:07:41,860: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya - dark_2.png, time: 1569902861.860369'
+INFO: 2019-10-01 12:07:41,890: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya - dark_2.png'
+INFO: 2019-10-01 12:12:40,708: parse_server_options() 'Flickr: parsing serverside options'
+ERROR: 2019-10-01 12:12:40,709: parse_server_options() 'Could not parse Flickr serverside options, using defaults 60, 600'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/Downloader.py", line 143, in parse_server_options
+    options = self.parent.server_options[key]
+KeyError: 'flickr'
+INFO: 2019-10-01 12:12:40,709: download_one() 'Downloading an image from Flickr, user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2019-10-01 12:12:40,710: download_one() 'Queue size: 0'
+INFO: 2019-10-01 12:12:40,710: fill_queue() 'Filling Flickr download queue: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2019-10-01 12:12:40,710: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+ERROR: 2019-10-01 12:12:40,719: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 316, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764f50>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764f50>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/FlickrDownloader.py", line 142, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/FlickrDownloader.py", line 165, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.7/site-packages/variety/FlickrDownloader.py", line 60, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764f50>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 12:12:42,108: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 12:12:42,109: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/manjaro-wallpapers-18.0/illyria-adapta-dark-maia.jpg'
+INFO: 2019-10-01 12:12:42,109: prepare_thread() 'Prepared buffer contains 94 images'
+INFO: 2019-10-01 12:12:42,110: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/manjaro-wallpapers-18.0/illyria-adapta-dark-maia.jpg, time: 1569903162.1104805'
+INFO: 2019-10-01 12:12:42,142: update_indicator() 'Setting file info to: /usr/share/backgrounds/manjaro-wallpapers-18.0/illyria-adapta-dark-maia.jpg'
+INFO: 2019-10-01 12:17:42,357: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 12:17:42,358: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/xfce/Wallpaper-ST2-Black.jpg'
+INFO: 2019-10-01 12:17:42,358: prepare_thread() 'Prepared buffer contains 93 images'
+INFO: 2019-10-01 12:17:42,359: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/xfce/Wallpaper-ST2-Black.jpg, time: 1569903462.35942'
+INFO: 2019-10-01 12:17:42,387: update_indicator() 'Setting file info to: /usr/share/backgrounds/xfce/Wallpaper-ST2-Black.jpg'
+INFO: 2019-10-01 12:22:40,708: download_one() 'Downloading a random image from desktoppr.co'
+ERROR: 2019-10-01 12:22:40,719: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 316, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764650>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.desktoppr.co', port=443): Max retries exceeded with url: /1/wallpapers/random (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764650>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/DesktopprDownloader.py", line 35, in download_one
+    response = Util.fetch_json(self.location)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.desktoppr.co', port=443): Max retries exceeded with url: /1/wallpapers/random (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764650>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 12:22:42,596: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 12:22:42,597: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/illyria-default-lockscreen.jpg'
+INFO: 2019-10-01 12:22:42,597: prepare_thread() 'Prepared buffer contains 92 images'
+INFO: 2019-10-01 12:22:42,598: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/illyria-default-lockscreen.jpg, time: 1569903762.5987303'
+INFO: 2019-10-01 12:22:42,625: update_indicator() 'Setting file info to: /usr/share/backgrounds/illyria-default-lockscreen.jpg'
+INFO: 2019-10-01 12:27:42,823: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 12:27:42,824: set_wallpaper() 'Calling set_wallpaper with /home/fan/.config/variety/Downloaded/Unsplash/photo-1567301050802-7c23b49c06fc.jpg'
+INFO: 2019-10-01 12:27:42,824: prepare_thread() 'Prepared buffer contains 91 images'
+INFO: 2019-10-01 12:27:42,825: do_set_wp() 'Calling do_set_wp with /home/fan/.config/variety/Downloaded/Unsplash/photo-1567301050802-7c23b49c06fc.jpg, time: 1569904062.8253279'
+INFO: 2019-10-01 12:27:42,857: update_indicator() 'Setting file info to: /home/fan/.config/variety/Downloaded/Unsplash/photo-1567301050802-7c23b49c06fc.jpg'
+INFO: 2019-10-01 12:32:40,709: download_one() 'Downloading an image from Bing'
+INFO: 2019-10-01 12:32:40,709: download_one() 'Queue size: 0'
+INFO: 2019-10-01 12:32:40,710: fill_queue() 'Filling Bing queue from https://www.bing.com/gallery/'
+ERROR: 2019-10-01 12:32:40,720: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 316, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764610>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.bing.com', port=443): Max retries exceeded with url: /HPImageArchive.aspx?format=js&idx=0&n=100&mkt=en-US (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764610>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/BingDownloader.py", line 42, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/BingDownloader.py", line 53, in fill_queue
+    s = Util.fetch_json(BingDownloader.BING_JSON_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.bing.com', port=443): Max retries exceeded with url: /HPImageArchive.aspx?format=js&idx=0&n=100&mkt=en-US (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764610>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 12:32:43,104: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 12:32:43,104: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/xfce/Wallpaper-ST2-Green.jpg'
+INFO: 2019-10-01 12:32:43,105: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/xfce/Wallpaper-ST2-Green.jpg, time: 1569904363.1057756'
+INFO: 2019-10-01 12:32:43,106: prepare_thread() 'Prepared buffer contains 90 images'
+INFO: 2019-10-01 12:32:43,135: update_indicator() 'Setting file info to: /usr/share/backgrounds/xfce/Wallpaper-ST2-Green.jpg'
+INFO: 2019-10-01 12:37:43,557: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 12:37:43,558: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/manjaro-gnome/gnome3-wall.jpg'
+INFO: 2019-10-01 12:37:43,558: prepare_thread() 'Prepared buffer contains 89 images'
+INFO: 2019-10-01 12:37:43,559: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/manjaro-gnome/gnome3-wall.jpg, time: 1569904663.5598292'
+INFO: 2019-10-01 12:37:43,587: update_indicator() 'Setting file info to: /usr/share/backgrounds/manjaro-gnome/gnome3-wall.jpg'
+INFO: 2019-10-01 12:42:40,709: download_one() 'Downloading a random image from desktoppr.co'
+ERROR: 2019-10-01 12:42:40,719: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 316, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764350>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.desktoppr.co', port=443): Max retries exceeded with url: /1/wallpapers/random (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764350>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/DesktopprDownloader.py", line 35, in download_one
+    response = Util.fetch_json(self.location)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.desktoppr.co', port=443): Max retries exceeded with url: /1/wallpapers/random (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764350>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 12:42:43,838: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 12:42:43,838: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/manjaro-gnome/manjaro_triangles_wallpaper_1920x1200px.jpg'
+INFO: 2019-10-01 12:42:43,839: prepare_thread() 'Prepared buffer contains 88 images'
+INFO: 2019-10-01 12:42:43,840: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/manjaro-gnome/manjaro_triangles_wallpaper_1920x1200px.jpg, time: 1569904963.8400981'
+INFO: 2019-10-01 12:42:43,872: update_indicator() 'Setting file info to: /usr/share/backgrounds/manjaro-gnome/manjaro_triangles_wallpaper_1920x1200px.jpg'
+INFO: 2019-10-01 12:47:44,345: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 12:47:44,345: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/xfce/manjaro_grid_maia.jpg'
+INFO: 2019-10-01 12:47:44,346: prepare_thread() 'Prepared buffer contains 87 images'
+INFO: 2019-10-01 12:47:44,347: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/xfce/manjaro_grid_maia.jpg, time: 1569905264.3473291'
+INFO: 2019-10-01 12:47:44,378: update_indicator() 'Setting file info to: /usr/share/backgrounds/xfce/manjaro_grid_maia.jpg'
+INFO: 2019-10-01 12:52:40,710: download_one() 'Downloading an image from NASA's Astro Pic of the Day, nasa_apod'
+INFO: 2019-10-01 12:52:40,710: download_one() 'Queue size: 0'
+INFO: 2019-10-01 12:52:40,710: fill_queue() 'Filling APOD queue from Archive'
+ERROR: 2019-10-01 12:52:40,720: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 355, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 183, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3a8975bc10>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='apod.nasa.gov', port=80): Max retries exceeded with url: /apod/archivepix.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a8975bc10>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/APODDownloader.py", line 41, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/APODDownloader.py", line 68, in fill_queue
+    s = self.fetch("http://apod.nasa.gov/apod/archivepix.html")
+  File "/usr/lib/python3.7/site-packages/variety/APODDownloader.py", line 34, in fetch
+    return Util.xml_soup(url) if xml else Util.html_soup(url)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 597, in html_soup
+    return bs4.BeautifulSoup(Util.fetch(url, data), "lxml")
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 585, in fetch
+    return Util.request(url, data).text
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='apod.nasa.gov', port=80): Max retries exceeded with url: /apod/archivepix.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a8975bc10>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 12:52:44,694: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 12:52:44,694: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png'
+INFO: 2019-10-01 12:52:44,694: prepare_thread() 'Prepared buffer contains 86 images'
+INFO: 2019-10-01 12:52:44,695: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png, time: 1569905564.6951833'
+INFO: 2019-10-01 12:52:44,718: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png'
+INFO: 2019-10-01 12:57:44,964: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 12:57:44,964: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_square.png'
+INFO: 2019-10-01 12:57:44,965: prepare_thread() 'Prepared buffer contains 85 images'
+INFO: 2019-10-01 12:57:44,966: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_square.png, time: 1569905864.9662507'
+INFO: 2019-10-01 12:57:44,997: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_square.png'
+INFO: 2019-10-01 13:02:40,710: parse_server_options() 'Unsplash.com: parsing serverside options'
+ERROR: 2019-10-01 13:02:40,711: parse_server_options() 'Could not parse Unsplash.com serverside options, using defaults 600, 1800'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/Downloader.py", line 143, in parse_server_options
+    options = self.parent.server_options[key]
+KeyError: 'unsplash_v2'
+INFO: 2019-10-01 13:02:40,711: download_one() 'Downloading an image from Unsplash'
+INFO: 2019-10-01 13:02:40,712: download_one() 'Queue size: 0'
+INFO: 2019-10-01 13:02:40,712: fill_queue() 'Filling Unsplash queue from https://api.unsplash.com/photos/?page=32&per_page=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a'
+ERROR: 2019-10-01 13:02:40,721: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 316, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764390>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.unsplash.com', port=443): Max retries exceeded with url: /photos/?page=32&per_page=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764390>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/UnsplashDownloader.py", line 83, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/UnsplashDownloader.py", line 99, in fill_queue
+    r = Util.request(url)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.unsplash.com', port=443): Max retries exceeded with url: /photos/?page=32&per_page=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764390>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 13:02:45,259: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 13:02:45,260: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/wallpapers-juhraya/wMJ_J3_by_Bogdan-Covaciu.jpg'
+INFO: 2019-10-01 13:02:45,260: prepare_thread() 'Prepared buffer contains 84 images'
+INFO: 2019-10-01 13:02:45,261: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/wallpapers-juhraya/wMJ_J3_by_Bogdan-Covaciu.jpg, time: 1569906165.2614307'
+INFO: 2019-10-01 13:02:45,290: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/wMJ_J3_by_Bogdan-Covaciu.jpg'
+INFO: 2019-10-01 13:07:45,516: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 13:07:45,517: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/gnome/ColdWarm.jpg'
+INFO: 2019-10-01 13:07:45,518: prepare_thread() 'Prepared buffer contains 83 images'
+INFO: 2019-10-01 13:07:45,518: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/gnome/ColdWarm.jpg, time: 1569906465.5185874'
+INFO: 2019-10-01 13:07:45,549: update_indicator() 'Setting file info to: /usr/share/backgrounds/gnome/ColdWarm.jpg'
+INFO: 2019-10-01 13:12:40,710: parse_server_options() 'Flickr: parsing serverside options'
+ERROR: 2019-10-01 13:12:40,711: parse_server_options() 'Could not parse Flickr serverside options, using defaults 60, 600'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/Downloader.py", line 143, in parse_server_options
+    options = self.parent.server_options[key]
+KeyError: 'flickr'
+INFO: 2019-10-01 13:12:40,712: download_one() 'Downloading an image from Flickr, user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2019-10-01 13:12:40,712: download_one() 'Queue size: 0'
+INFO: 2019-10-01 13:12:40,712: fill_queue() 'Filling Flickr download queue: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2019-10-01 13:12:40,712: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+ERROR: 2019-10-01 13:12:40,720: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 316, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764450>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764450>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/FlickrDownloader.py", line 142, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/FlickrDownloader.py", line 165, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.7/site-packages/variety/FlickrDownloader.py", line 60, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764450>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 13:12:45,898: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 13:12:45,898: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/xfce/panorama-3629120.jpg'
+INFO: 2019-10-01 13:12:45,899: prepare_thread() 'Prepared buffer contains 82 images'
+INFO: 2019-10-01 13:12:45,900: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/xfce/panorama-3629120.jpg, time: 1569906765.9000773'
+INFO: 2019-10-01 13:12:45,931: update_indicator() 'Setting file info to: /usr/share/backgrounds/xfce/panorama-3629120.jpg'
+INFO: 2019-10-01 13:17:46,292: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 13:17:46,293: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/xfce/wpM_illyria_adapta.jpg'
+INFO: 2019-10-01 13:17:46,293: prepare_thread() 'Prepared buffer contains 81 images'
+INFO: 2019-10-01 13:17:46,294: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/xfce/wpM_illyria_adapta.jpg, time: 1569907066.2945812'
+INFO: 2019-10-01 13:17:46,324: update_indicator() 'Setting file info to: /usr/share/backgrounds/xfce/wpM_illyria_adapta.jpg'
+INFO: 2019-10-01 13:22:40,711: parse_server_options() 'Flickr: parsing serverside options'
+ERROR: 2019-10-01 13:22:40,711: parse_server_options() 'Could not parse Flickr serverside options, using defaults 60, 600'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/Downloader.py", line 143, in parse_server_options
+    options = self.parent.server_options[key]
+KeyError: 'flickr'
+INFO: 2019-10-01 13:22:40,712: download_one() 'Downloading an image from Flickr, user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2019-10-01 13:22:40,712: download_one() 'Queue size: 0'
+INFO: 2019-10-01 13:22:40,712: fill_queue() 'Filling Flickr download queue: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2019-10-01 13:22:40,713: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+ERROR: 2019-10-01 13:22:40,721: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 316, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a897648d0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a897648d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/FlickrDownloader.py", line 142, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/FlickrDownloader.py", line 165, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.7/site-packages/variety/FlickrDownloader.py", line 60, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a897648d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 13:22:46,550: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 13:22:46,551: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/xfce/abstract-1779631.jpg'
+INFO: 2019-10-01 13:22:46,551: prepare_thread() 'Prepared buffer contains 80 images'
+INFO: 2019-10-01 13:22:46,552: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/xfce/abstract-1779631.jpg, time: 1569907366.552696'
+INFO: 2019-10-01 13:22:46,578: update_indicator() 'Setting file info to: /usr/share/backgrounds/xfce/abstract-1779631.jpg'
+INFO: 2019-10-01 13:27:46,944: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 13:27:46,945: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/manjaro-gnome/manjaro-gnome-adapta.jpg'
+INFO: 2019-10-01 13:27:46,946: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/manjaro-gnome/manjaro-gnome-adapta.jpg, time: 1569907666.9468126'
+INFO: 2019-10-01 13:27:46,947: prepare_thread() 'Prepared buffer contains 79 images'
+INFO: 2019-10-01 13:27:46,977: update_indicator() 'Setting file info to: /usr/share/backgrounds/manjaro-gnome/manjaro-gnome-adapta.jpg'
+INFO: 2019-10-01 13:32:40,711: parse_server_options() 'Unsplash.com: parsing serverside options'
+ERROR: 2019-10-01 13:32:40,712: parse_server_options() 'Could not parse Unsplash.com serverside options, using defaults 600, 1800'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/Downloader.py", line 143, in parse_server_options
+    options = self.parent.server_options[key]
+KeyError: 'unsplash_v2'
+INFO: 2019-10-01 13:32:40,712: download_one() 'Downloading an image from Unsplash'
+INFO: 2019-10-01 13:32:40,713: download_one() 'Queue size: 0'
+INFO: 2019-10-01 13:32:40,713: fill_queue() 'Filling Unsplash queue from https://api.unsplash.com/photos/?page=13&per_page=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a'
+ERROR: 2019-10-01 13:32:40,722: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 316, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764cd0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.unsplash.com', port=443): Max retries exceeded with url: /photos/?page=13&per_page=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764cd0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/UnsplashDownloader.py", line 83, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/UnsplashDownloader.py", line 99, in fill_queue
+    r = Util.request(url)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.unsplash.com', port=443): Max retries exceeded with url: /photos/?page=13&per_page=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764cd0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 13:32:47,203: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 13:32:47,204: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/xfce/illyria-adapta-dark-maia.jpg'
+INFO: 2019-10-01 13:32:47,204: prepare_thread() 'Prepared buffer contains 78 images'
+INFO: 2019-10-01 13:32:47,205: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/xfce/illyria-adapta-dark-maia.jpg, time: 1569907967.2057495'
+INFO: 2019-10-01 13:32:47,235: update_indicator() 'Setting file info to: /usr/share/backgrounds/xfce/illyria-adapta-dark-maia.jpg'
+INFO: 2019-10-01 13:37:47,453: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 13:37:47,454: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/manjaro-wallpapers-18.0/play.jpg'
+INFO: 2019-10-01 13:37:47,454: prepare_thread() 'Prepared buffer contains 77 images'
+INFO: 2019-10-01 13:37:47,455: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/manjaro-wallpapers-18.0/play.jpg, time: 1569908267.4559584'
+INFO: 2019-10-01 13:37:47,486: update_indicator() 'Setting file info to: /usr/share/backgrounds/manjaro-wallpapers-18.0/play.jpg'
+INFO: 2019-10-01 13:42:40,711: download_one() 'Downloading an image from NASA's Astro Pic of the Day, nasa_apod'
+INFO: 2019-10-01 13:42:40,712: download_one() 'Queue size: 0'
+INFO: 2019-10-01 13:42:40,712: fill_queue() 'Filling APOD queue from Archive'
+ERROR: 2019-10-01 13:42:40,722: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 355, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 183, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3a8975b8d0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='apod.nasa.gov', port=80): Max retries exceeded with url: /apod/archivepix.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a8975b8d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/APODDownloader.py", line 41, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/APODDownloader.py", line 68, in fill_queue
+    s = self.fetch("http://apod.nasa.gov/apod/archivepix.html")
+  File "/usr/lib/python3.7/site-packages/variety/APODDownloader.py", line 34, in fetch
+    return Util.xml_soup(url) if xml else Util.html_soup(url)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 597, in html_soup
+    return bs4.BeautifulSoup(Util.fetch(url, data), "lxml")
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 585, in fetch
+    return Util.request(url, data).text
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='apod.nasa.gov', port=80): Max retries exceeded with url: /apod/archivepix.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a8975b8d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 13:42:47,700: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 13:42:47,701: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/manjaro-wallpapers-18.0/manjaro-adapta-maia-1.jpg'
+INFO: 2019-10-01 13:42:47,701: prepare_thread() 'Prepared buffer contains 76 images'
+INFO: 2019-10-01 13:42:47,702: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/manjaro-wallpapers-18.0/manjaro-adapta-maia-1.jpg, time: 1569908567.702727'
+INFO: 2019-10-01 13:42:47,730: update_indicator() 'Setting file info to: /usr/share/backgrounds/manjaro-wallpapers-18.0/manjaro-adapta-maia-1.jpg'
+INFO: 2019-10-01 13:47:47,972: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 13:47:47,973: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya - Mr_Glitch(Projekt:Root).png'
+INFO: 2019-10-01 13:47:47,973: prepare_thread() 'Prepared buffer contains 75 images'
+INFO: 2019-10-01 13:47:47,974: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya - Mr_Glitch(Projekt:Root).png, time: 1569908867.9744952'
+INFO: 2019-10-01 13:47:48,003: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya - Mr_Glitch(Projekt:Root).png'
+INFO: 2019-10-01 13:52:40,712: download_one() 'Downloading an image from NASA's Astro Pic of the Day, nasa_apod'
+INFO: 2019-10-01 13:52:40,712: download_one() 'Queue size: 0'
+INFO: 2019-10-01 13:52:40,713: fill_queue() 'Filling APOD queue from Archive'
+ERROR: 2019-10-01 13:52:40,721: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 355, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 183, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3a8975b8d0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='apod.nasa.gov', port=80): Max retries exceeded with url: /apod/archivepix.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a8975b8d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/APODDownloader.py", line 41, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/APODDownloader.py", line 68, in fill_queue
+    s = self.fetch("http://apod.nasa.gov/apod/archivepix.html")
+  File "/usr/lib/python3.7/site-packages/variety/APODDownloader.py", line 34, in fetch
+    return Util.xml_soup(url) if xml else Util.html_soup(url)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 597, in html_soup
+    return bs4.BeautifulSoup(Util.fetch(url, data), "lxml")
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 585, in fetch
+    return Util.request(url, data).text
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='apod.nasa.gov', port=80): Max retries exceeded with url: /apod/archivepix.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a8975b8d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 13:52:48,276: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 13:52:48,276: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/wallpapers-2018/nature-3058859.jpg'
+INFO: 2019-10-01 13:52:48,277: prepare_thread() 'Prepared buffer contains 74 images'
+INFO: 2019-10-01 13:52:48,278: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/wallpapers-2018/nature-3058859.jpg, time: 1569909168.2781107'
+INFO: 2019-10-01 13:52:48,307: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-2018/nature-3058859.jpg'
+INFO: 2019-10-01 13:57:48,701: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 13:57:48,702: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/Wallpaper-ST2-Black.jpg'
+INFO: 2019-10-01 13:57:48,702: prepare_thread() 'Prepared buffer contains 73 images'
+INFO: 2019-10-01 13:57:48,703: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/Wallpaper-ST2-Black.jpg, time: 1569909468.703779'
+INFO: 2019-10-01 13:57:48,731: update_indicator() 'Setting file info to: /usr/share/backgrounds/Wallpaper-ST2-Black.jpg'
+INFO: 2019-10-01 14:02:40,712: parse_server_options() 'Flickr: parsing serverside options'
+ERROR: 2019-10-01 14:02:40,713: parse_server_options() 'Could not parse Flickr serverside options, using defaults 60, 600'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/Downloader.py", line 143, in parse_server_options
+    options = self.parent.server_options[key]
+KeyError: 'flickr'
+INFO: 2019-10-01 14:02:40,714: download_one() 'Downloading an image from Flickr, user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2019-10-01 14:02:40,714: download_one() 'Queue size: 0'
+INFO: 2019-10-01 14:02:40,714: fill_queue() 'Filling Flickr download queue: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2019-10-01 14:02:40,714: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+ERROR: 2019-10-01 14:02:40,723: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 316, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764850>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764850>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/FlickrDownloader.py", line 142, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/FlickrDownloader.py", line 165, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.7/site-packages/variety/FlickrDownloader.py", line 60, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764850>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 14:02:48,976: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 14:02:48,977: set_wallpaper() 'Calling set_wallpaper with /home/fan/.config/variety/Downloaded/Unsplash/photo-1556911073-a6e37cb3a1c3.jpg'
+INFO: 2019-10-01 14:02:48,977: prepare_thread() 'Prepared buffer contains 72 images'
+INFO: 2019-10-01 14:02:48,978: do_set_wp() 'Calling do_set_wp with /home/fan/.config/variety/Downloaded/Unsplash/photo-1556911073-a6e37cb3a1c3.jpg, time: 1569909768.978412'
+INFO: 2019-10-01 14:02:49,004: update_indicator() 'Setting file info to: /home/fan/.config/variety/Downloaded/Unsplash/photo-1556911073-a6e37cb3a1c3.jpg'
+INFO: 2019-10-01 14:07:49,446: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 14:07:49,447: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/gnome/Icescape.jpg'
+INFO: 2019-10-01 14:07:49,448: prepare_thread() 'Prepared buffer contains 71 images'
+INFO: 2019-10-01 14:07:49,449: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/gnome/Icescape.jpg, time: 1569910069.4493773'
+INFO: 2019-10-01 14:07:49,476: update_indicator() 'Setting file info to: /usr/share/backgrounds/gnome/Icescape.jpg'
+INFO: 2019-10-01 14:12:40,712: parse_server_options() 'Unsplash.com: parsing serverside options'
+ERROR: 2019-10-01 14:12:40,713: parse_server_options() 'Could not parse Unsplash.com serverside options, using defaults 600, 1800'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/Downloader.py", line 143, in parse_server_options
+    options = self.parent.server_options[key]
+KeyError: 'unsplash_v2'
+INFO: 2019-10-01 14:12:40,714: download_one() 'Downloading an image from Unsplash'
+INFO: 2019-10-01 14:12:40,714: download_one() 'Queue size: 0'
+INFO: 2019-10-01 14:12:40,715: fill_queue() 'Filling Unsplash queue from https://api.unsplash.com/photos/?page=151&per_page=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a'
+ERROR: 2019-10-01 14:12:40,722: download_thread() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 316, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764c50>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.unsplash.com', port=443): Max retries exceeded with url: /photos/?page=151&per_page=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764c50>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 986, in download_thread
+    self.download_one_from(downloader)
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 1018, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.7/site-packages/variety/UnsplashDownloader.py", line 83, in download_one
+    self.fill_queue()
+  File "/usr/lib/python3.7/site-packages/variety/UnsplashDownloader.py", line 99, in fill_queue
+    r = Util.request(url)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.unsplash.com', port=443): Max retries exceeded with url: /photos/?page=151&per_page=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3a89764c50>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+INFO: 2019-10-01 14:12:49,775: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 14:12:49,776: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/xfce/palm-beach.jpg'
+INFO: 2019-10-01 14:12:49,776: prepare_thread() 'Prepared buffer contains 70 images'
+INFO: 2019-10-01 14:12:49,777: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/xfce/palm-beach.jpg, time: 1569910369.7773426'
+INFO: 2019-10-01 14:12:49,804: update_indicator() 'Setting file info to: /usr/share/backgrounds/xfce/palm-beach.jpg'
+INFO: 2019-10-01 14:17:50,108: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2019-10-01 14:17:50,109: set_wallpaper() 'Calling set_wallpaper with /usr/share/backgrounds/manjaro-wallpapers-18.0/wpM_orbit2_textured.jpg'
+INFO: 2019-10-01 14:17:50,109: prepare_thread() 'Prepared buffer contains 69 images'
+INFO: 2019-10-01 14:17:50,110: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/manjaro-wallpapers-18.0/wpM_orbit2_textured.jpg, time: 1569910670.1107595'
+INFO: 2019-10-01 14:17:50,140: update_indicator() 'Setting file info to: /usr/share/backgrounds/manjaro-wallpapers-18.0/wpM_orbit2_textured.jpg'
